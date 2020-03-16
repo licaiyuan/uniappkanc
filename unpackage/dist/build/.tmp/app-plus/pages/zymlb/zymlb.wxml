@@ -1,0 +1,1 @@
+<view><block wx:if="{{iscomponent=='assetTag'}}"><asset-tag vue-id="1" bind:__l="__l"></asset-tag></block><block wx:else><block wx:if="{{iscomponent=='jy'}}"><jy vue-id="2" bind:__l="__l"></jy></block></block><navigation vue-id="3" anArray="{{anArray}}" bind:__l="__l"></navigation></view>

@@ -1,0 +1,105 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		//登录
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+
+				}
+			}
+		},
+		//工单列表
+		{
+			"path": "pages/index/assetTag/assetTag",
+			"style": {
+				"navigationStyle": "custom",
+				"disableScroll": true,
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+
+				}
+			}
+		},
+		//新增
+		{
+			"path": "pages/index/xz",
+			"style": {
+				"navigationStyle": "custom",
+				"disableScroll": true,
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+
+				}
+			}
+		},
+		//单子详情
+		{
+			"path": "pages/index/detail/detail",
+			"style": {
+				"navigationStyle": "custom",
+				"disableScroll": true,
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+
+				}
+			}
+		},
+		//注册界面
+		{
+			"path": "pages/zcjm",
+			"style": {
+				"navigationStyle": "custom",
+				"disableScroll": true,
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+
+				}
+			}
+		},
+		//经验
+		{
+			"path": "pages/jy/jy",
+			"style": {
+				"navigationStyle": "custom",
+				"disableScroll": true,
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+
+				}
+			}
+		}
+
+
+		//入口页面
+		, {
+
+
+			"path": "pages/zymlb/zymlb",
+			"style": {
+				"navigationStyle": "custom",
+				"disableScroll": true,
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

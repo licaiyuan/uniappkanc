@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "titleNView": false,
+  "bounce": "none",
+  "usingComponents": {
+    "navigation": "/components/navigation",
+    "asset-tag": "/pages/index/assetTag/assetTag",
+    "jy": "/pages/jy/jy"
+  }
+}

@@ -1,0 +1,210 @@
+@mixin flexa($direction: row, $justcontent: flex-start) {
+	display: flex;
+	direction: $direction;
+	align-items: center;
+	justify-content: $justcontent;
+}
+$hsbkx: #f2f2f2;
+$jbstb: linear-gradient(to right, #006569, #09999f) !default;
+.bqyz {
+	@include flexa(row, flex-start);
+}
+.ztbjs {
+	background-color: rgba(249, 249, 249, 1);
+	height: 100%;
+	overflow: auto;
+	position: absolute;
+	width: 100%;
+	font-family: PingFang SC;
+}
+.uni-textarea-textarea {
+	padding: 5px;
+}
+uni-textarea {
+}
+.uni-textarea-placeholder {
+	font-size: 15px;
+}
+.srktext {
+	margin: 0 auto;
+	width: 95%;
+	padding: 10rpx;
+	border: solid 1px #f2f2f2 !important;
+}
+
+.srktext2 {
+	// margin-left: 60rpx;
+	width: 70%;
+}
+.formradio {
+	transform: scale(0.8);
+}
+.ztbf {
+	margin-top: 69px;
+	height: 83%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	.ztbsbf {
+		background: #f9f9f9;
+		margin-top: 30rpx;
+	}
+
+	.btjmz {
+		@include flexa();
+		font-weight: 500;
+		image {
+			height: 32rpx;
+			width: 32rpx;
+		}
+		padding: 16px 13px 0 13px;
+		font-size: 17px;
+		color: black;
+		text {
+			margin-left: 18rpx;
+		}
+	}
+	.lb {
+		.dxk {
+			padding: 38rpx;
+			width: 100%;
+			@include flexa(row, space-around);
+			font-size: 28rpx;
+			.dxkhz {
+				@include flexa(column, flex-start);
+			}
+		}
+		background: white;
+		padding: 16px 13px;
+		display: flex;
+		position: relative;
+		font-size: 15px;
+		align-items: center;
+		/* border-bottom: solid; */
+		border-bottom: solid 1px #eaeaea;
+		.bt {
+			color: red;
+			position: relative;
+			top: 2px;
+		}
+
+		.hs {
+			color: black;
+			// flex-grow: 1;
+			font-size: 32rpx;
+			// width: 107px;
+			.htjefmyh {
+				@include flexa();
+				flex-wrap: wrap;
+				line-height: 30px;
+				.htjefm {
+					width: 80rpx;
+					margin-left: 0px;
+					text-align: center;
+					border-bottom: solid 1px #adadad;
+				}
+			}
+		}
+		.hs2 {
+			font-size: 32rpx;
+			font-weight: 500;
+		}
+		.nr {
+			margin-left: 30%;
+		}
+	}
+	.dzlb {
+		@extend .lb;
+		align-items: flex-start;
+		font-weight: 400;
+		font-size: 32rpx;
+		background: white;
+	}
+}
+.ztbf2 {
+	@extend .ztbf;
+	height: 95%;
+	padding-bottom: 10px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background: #f9f9f9;
+}
+.wbcc {
+	text-align: justify;
+	text-justify: newspaper;
+	word-break: break-all;
+	width: 380rpx;
+}
+.login {
+	line-height: 38px;
+	border-radius: 85px;
+	background: $jbstb;
+	margin-top: 55px;
+	line-height: 92rpx;
+	height: 49px;
+	width: 95%;
+	margin: 0 auto;
+}
+.inputGroup {
+	.tpinput {
+		@include flexa(row);
+	}
+}
+
+.tubBg {
+	// background: $jbstb;
+	padding-top: 130rpx;
+	padding-bottom: 2rpx;
+	width: 100%;
+}
+.dbszp {
+	@include flexa(column, flex-start);
+	background: url('http://ops.xmrtc.com/api/fs/files/657238908416954368/0');
+	position: fixed;
+	width: 100%;
+	z-index: 200;
+}
+.title {
+	background: $jbstb;
+
+	padding: 40px 0rpx 12px 0rpx;
+	position: fixed;
+	top: 0px;
+	z-index: 100;
+	width: 100%;
+
+	color: white;
+
+	text {
+		color: #000000;
+	}
+
+	.iconImg {
+		width: 52rpx;
+		height: 52rpx;
+		// padding-left: 30rpx;
+		margin-left: 30rpx;
+		position: absolute;
+	}
+
+	.zt {
+		font-size: 36rpx;
+		margin: 0 auto;
+		width: 346rpx;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.next {
+		font-size: 28rpx;
+		right: 30rpx;
+		position: absolute;
+		bottom: 11px;
+	}
+}
+.title2 {
+	@extend .title;
+	background: none;
+}

@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "titleNView": false,
+  "bounce": "none",
+  "usingComponents": {
+    "modal": "/components/x-modal/x-modal"
+  }
+}

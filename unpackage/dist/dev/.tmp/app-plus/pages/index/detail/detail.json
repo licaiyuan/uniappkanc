@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "titleNView": false,
+  "bounce": "none",
+  "usingComponents": {
+    "take-photo": "/pages/index/detail/takePhoto",
+    "wuc-tab": "/components/wuc-tab",
+    "modal": "/components/x-modal/x-modal"
+  }
+}
